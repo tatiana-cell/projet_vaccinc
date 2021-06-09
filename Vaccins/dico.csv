@@ -1,0 +1,162 @@
+Niveau;Nom;Libellé;Auteur modification;Date modification
+1;Dictionnaire (155);;;
+2;    WD Database (155);;;
+3;        Clé Etrangère (31);;;
+4;            FK_ATTACHER_ECOLE;;;
+4;            FK_ATTACHER_ECOLE1;;;
+4;            FK_ATTACHER_MEDECIN;;;
+4;            FK_ATTACHER_MEDECIN1;;;
+4;            FK_AVOIR_MEDECIN;;;
+4;            FK_AVOIR_MEDECIN1;;;
+4;            FK_AVOIR_SPECIALITE;;;
+4;            FK_AVOIR_SPECIALITE1;;;
+4;            FK_CHOISIR_REPONSE_ETUDIANT(E);;;
+4;            FK_CHOISIR_REPONSE_PROPOSITION_REPONSE;;;
+4;            FK_DISPENSER_ENSEIGNANT(E);;;
+4;            FK_DISPENSER_UNITE_ENSEIGNEMENT;;;
+4;            FK_ENFANT_ECOLE;;;
+4;            FK_ENFANT_ECOLE1;;;
+4;            FK_ENSEIGNANT(E)_USER;;;
+4;            FK_ETUDIANT(E)_USER;;;
+4;            FK_MEDECIN_CENTRE;;;
+4;            FK_MEDECIN_CENTRE1;;;
+4;            FK_PROPOSITION_REPONSE_QUESTIONS;;;
+4;            FK_QUESTIONS_DATE_DEPOT_QUESTION;;;
+4;            FK_QUESTIONS_ENSEIGNANT(E);;;
+4;            FK_QUESTIONS_TEST_QCM;;;
+4;            FK_SE_FAIRE_VACCINER_ENFANT;;;
+4;            FK_SE_FAIRE_VACCINER_ENFANT1;;;
+4;            FK_SE_FAIRE_VACCINER_VACCIN;;;
+4;            FK_SE_FAIRE_VACCINER_VACCIN1;;;
+4;            FK_SUIVRE_ETUDIANT(E);;;
+4;            FK_SUIVRE_UNITE_ENSEIGNEMENT;;;
+4;            FK_TEST_QCM_UNITE_ENSEIGNEMENT;;;
+4;            FK_VACCIN_CATEGORY;;;
+4;            FK_VACCIN_CATEGORY1;;;
+3;        Clé Primaire (21);;;
+4;            PK_ATTACHER.ATTACHER;;;
+4;            PK_AVOIR.AVOIR;;;
+4;            PK_CATEGORY.CATEGORY;;;
+4;            PK_CENTRE.CENTRE;;;
+4;            PK_CHOISIR_REPONSE.CHOISIR_REPONSE;;KURASHEVA;26/05/2021
+4;            PK_DATE_DEPOT_QUESTION.DATE_DEPOT_QUESTION;;;
+4;            PK_DISPENSER.DISPENSER;;;
+4;            PK_ECOLE.ECOLE;;;
+4;            PK_ENFANT.ENFANT;;;
+4;            PK_ENSEIGNANT(E).ENSEIGNANT(E);;;
+4;            PK_ETUDIANT(E).ETUDIANT(E);;;
+4;            PK_MEDECIN.MEDECIN;;;
+4;            PK_PROPOSITION_REPONSE.PROPOSITION_REPONSE;;;
+4;            PK_QUESTIONS.QUESTIONS;;;
+4;            PK_SE_FAIRE_VACCINER.SE_FAIRE_VACCINER;;;
+4;            PK_SPECIALITE.SPECIALITE;;;
+4;            PK_SUIVRE.SUIVRE;;;
+4;            PK_TEST_QCM.TEST_QCM;;;
+4;            PK_UNITE_ENSEIGNEMENT.UNITE_ENSEIGNEMENT;;;
+4;            PK_USER.USER;;;
+4;            PK_VACCIN.VACCIN;;;
+3;        Entité (15);;;
+4;            CATEGORY;;KURASHEVA;01/06/2021
+4;            CENTRE;;KURASHEVA;01/06/2021
+4;            Date depot question;;KURASHEVA;26/05/2021
+4;            ECOLE;;KURASHEVA;01/06/2021
+4;            ENFANT;;KURASHEVA;01/06/2021
+4;            ENSEIGNANT(e);;KURASHEVA;26/05/2021
+4;            Etudiant(e);;KURASHEVA;26/05/2021
+4;            MEDECIN;;KURASHEVA;01/06/2021
+4;            PROPOSITION reponse;;KURASHEVA;26/05/2021
+4;            QUESTIONS;;KURASHEVA;26/05/2021
+4;            SPECIALITE;;KURASHEVA;01/06/2021
+4;            test QCM;;KURASHEVA;26/05/2021
+4;            UNITE ENSEIGNEMENT;;KURASHEVA;26/05/2021
+4;            USER;;KURASHEVA;26/05/2021
+4;            VACCIN;;KURASHEVA;01/06/2021
+3;        Index (52);;;
+4;            I_FK_ATTACHER_ECOLE.ATTACHER;;;
+4;            I_FK_ATTACHER_ECOLE1.ATTACHER;;;
+4;            I_FK_ATTACHER_MEDECIN.ATTACHER;;;
+4;            I_FK_ATTACHER_MEDECIN1.ATTACHER;;;
+4;            I_FK_AVOIR_MEDECIN.AVOIR;;;
+4;            I_FK_AVOIR_MEDECIN1.AVOIR;;;
+4;            I_FK_AVOIR_SPECIALITE.AVOIR;;;
+4;            I_FK_AVOIR_SPECIALITE1.AVOIR;;;
+4;            I_FK_CHOISIR_REPONSE_ETUDIANT(E).CHOISIR_REPONSE;;KURASHEVA;26/05/2021
+4;            I_FK_CHOISIR_REPONSE_PROPOSITION_REPONSE.CHOISIR_REPONSE;;KURASHEVA;26/05/2021
+4;            I_FK_DISPENSER_ENSEIGNANT(E).DISPENSER;;;
+4;            I_FK_DISPENSER_UNITE_ENSEIGNEMENT.DISPENSER;;;
+4;            I_FK_ENFANT_ECOLE.ENFANT;;;
+4;            I_FK_ENFANT_ECOLE1.ENFANT;;;
+4;            I_FK_ENSEIGNANT(E)_USER.ENSEIGNANT(E);;;
+4;            I_FK_ETUDIANT(E)_USER.ETUDIANT(E);;;
+4;            I_FK_MEDECIN_CENTRE.MEDECIN;;;
+4;            I_FK_MEDECIN_CENTRE1.MEDECIN;;;
+4;            I_FK_PROPOSITION_REPONSE_QUESTIONS.PROPOSITION_REPONSE;;;
+4;            I_FK_QUESTIONS_DATE_DEPOT_QUESTION.QUESTIONS;;;
+4;            I_FK_QUESTIONS_ENSEIGNANT(E).QUESTIONS;;;
+4;            I_FK_QUESTIONS_TEST_QCM.QUESTIONS;;;
+4;            I_FK_SE_FAIRE_VACCINER_ENFANT.SE_FAIRE_VACCINER;;;
+4;            I_FK_SE_FAIRE_VACCINER_ENFANT1.SE_FAIRE_VACCINER;;;
+4;            I_FK_SE_FAIRE_VACCINER_VACCIN.SE_FAIRE_VACCINER;;;
+4;            I_FK_SE_FAIRE_VACCINER_VACCIN1.SE_FAIRE_VACCINER;;;
+4;            I_FK_SUIVRE_ETUDIANT(E).SUIVRE;;;
+4;            I_FK_SUIVRE_UNITE_ENSEIGNEMENT.SUIVRE;;;
+4;            I_FK_TEST_QCM_UNITE_ENSEIGNEMENT.TEST_QCM;;;
+4;            I_FK_VACCIN_CATEGORY.VACCIN;;;
+4;            I_FK_VACCIN_CATEGORY1.VACCIN;;;
+4;            I_PK_ATTACHER.ATTACHER;;;
+4;            I_PK_AVOIR.AVOIR;;;
+4;            I_PK_CATEGORY.CATEGORY;;;
+4;            I_PK_CENTRE.CENTRE;;;
+4;            I_PK_CHOISIR_REPONSE.CHOISIR_REPONSE;;KURASHEVA;26/05/2021
+4;            I_PK_DATE_DEPOT_QUESTION.DATE_DEPOT_QUESTION;;;
+4;            I_PK_DISPENSER.DISPENSER;;;
+4;            I_PK_ECOLE.ECOLE;;;
+4;            I_PK_ENFANT.ENFANT;;;
+4;            I_PK_ENSEIGNANT(E).ENSEIGNANT(E);;;
+4;            I_PK_ETUDIANT(E).ETUDIANT(E);;;
+4;            I_PK_MEDECIN.MEDECIN;;;
+4;            I_PK_PROPOSITION_REPONSE.PROPOSITION_REPONSE;;;
+4;            I_PK_QUESTIONS.QUESTIONS;;;
+4;            I_PK_SE_FAIRE_VACCINER.SE_FAIRE_VACCINER;;;
+4;            I_PK_SPECIALITE.SPECIALITE;;;
+4;            I_PK_SUIVRE.SUIVRE;;;
+4;            I_PK_TEST_QCM.TEST_QCM;;;
+4;            I_PK_UNITE_ENSEIGNEMENT.UNITE_ENSEIGNEMENT;;;
+4;            I_PK_USER.USER;;;
+4;            I_PK_VACCIN.VACCIN;;;
+3;        Relation (15);;;
+4;            Attacher;;KURASHEVA;01/06/2021
+4;            avoir (2);;KURASHEVA;25/05/2021
+4;            choisir reponse;;KURASHEVA;26/05/2021
+4;            correspondre à;;KURASHEVA;25/05/2021
+4;            Dependre;;KURASHEVA;01/06/2021
+4;            dispenser;;KURASHEVA;25/05/2021
+4;            déposer question;;KURASHEVA;25/05/2021
+4;            est;;KURASHEVA;25/05/2021
+4;            Etre de (2);;KURASHEVA;25/05/2021
+4;            Inscrire;;KURASHEVA;01/06/2021
+4;            se faire vacciner;;KURASHEVA;01/06/2021
+4;            suivre;;KURASHEVA;25/05/2021
+4;            tester;;KURASHEVA;26/05/2021
+3;        Table (21);;;
+4;            ATTACHER;;;
+4;            AVOIR;;;
+4;            CATEGORY;;;
+4;            CENTRE;;;
+4;            CHOISIR_REPONSE;;KURASHEVA;26/05/2021
+4;            DATE_DEPOT_QUESTION;;;
+4;            DISPENSER;;;
+4;            ECOLE;;;
+4;            ENFANT;;;
+4;            ENSEIGNANT(E);;;
+4;            ETUDIANT(E);;;
+4;            MEDECIN;;;
+4;            PROPOSITION_REPONSE;;;
+4;            QUESTIONS;;;
+4;            SE_FAIRE_VACCINER;;;
+4;            SPECIALITE;;;
+4;            SUIVRE;;;
+4;            TEST_QCM;;;
+4;            UNITE_ENSEIGNEMENT;;;
+4;            USER;;;
+4;            VACCIN;;;
